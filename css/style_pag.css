@@ -1,0 +1,91 @@
+body{
+    background-image: url("../img/fondo.png");
+    font-family: tahoma;
+}
+
+h1{
+	background-image: url("../img/maletin.jpg");
+	text-align: center;
+	width: 60%;
+	margin: 10px 20% 0 20%;
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+
+}
+
+img{
+	width: 50%;
+	margin: 50px 25% 0 25%;
+	border-radius: 30px;
+}
+
+.container{
+	width: 80%;
+	margin: 50px 10% 0 10%;
+	background-image: url("../img/fondo.png");
+}
+
+hr{
+    height: 10px;
+    background-color: red;
+}
+
+marquee {
+	background-color: red;
+	color: white;
+	width: 90%;
+	height: auto;
+	margin: 30px 5% 0 5%;
+	border-radius: 30px;
+	box-shadow: 5px 5px #C0C0C0;
+}
+
+.container{
+	width: 60%;
+	height: auto;
+	margin: 40px 10% 0 10%;
+	text-align: justify;
+	background: rgba(202,202,202,0.8);
+	padding: 20px 10% 50px 10%;
+	border-radius: 30px;
+}
+
+.container h2 {
+	text-align: center;
+	color: #1C2833;
+}
+
+.contacto {
+    clear: both;
+    background-image: url("../img/maletin.jpg");
+    padding: 20px 20px 10px 20px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contacto p{
+    font-size: 15px;
+}
+
+button{
+	background-color: red;
+    width: 20%;
+    margin: 40px 40% 30px 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 3px rgb(199, 199, 199);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button a{
+    color: rgba(249, 251, 250, 0.88);
+    text-decoration: none;
+}
+
+button:hover{
+	transform: scale(1.1);
+}

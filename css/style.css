@@ -58,6 +58,8 @@ h2{
     vertical-align: top;
     position: relative;
     cursor: pointer;
+
+    transition: 0.5s;
 }
 
 .contenedor article img {
@@ -77,6 +79,10 @@ h2{
 
 .contenedor {
     line-height: 0px;
+}
+
+article:hover{
+    transform: scale(1.1);
 }
 
 .contacto {
